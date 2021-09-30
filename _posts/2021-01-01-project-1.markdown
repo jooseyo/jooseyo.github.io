@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+img: cheolhui.jpg
+alt: image-alt
+category: PhD
+name: Cheol-Hui Hong
+email: cholee@simlab.kaist.ac.kr
+description: Modeling and Simulation of Discrete Event Systems.
+description2: Reinforcement Learning-based Scheduling.
+description3: Scheduling Semiconductor Manufacturing Facilities
+---

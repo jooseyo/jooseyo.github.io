@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 9
+img: sanghyun.jpg
+alt: image-alt
+category: MS
+name: Sang-Hyun Joo
+email: toughshj@simlab.kaist.ac.kr
+description: Scheduling Semiconductor Manufacturing Facilities
+---

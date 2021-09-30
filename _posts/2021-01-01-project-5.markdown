@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 5
+img: sangho.png
+alt: image-alt
+category: PhD
+name: Sang-Ho Park
+email: alfeelyo@simlab.kaist.ac.kr
+description: Project Scheduling Analysis under Time Window Constraints by Petri Net.
+---

@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 6
+img: sungjun.jpg
+alt: image-alt
+category: PhD
+name: Seong-Jun Cho
+email: sj881021@kaist.ac.kr
+description: Scheduling of Cluster Tools for Delays between Process Steps
+---

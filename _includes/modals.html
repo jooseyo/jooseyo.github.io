@@ -1,0 +1,60 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            {% if post.category == "PhD" %}
+                            <img src="img/PhD/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% elsif post.category == "MS" %}
+                            <img src="img/MS/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% else %}
+                            <img src="img/Professor/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% endif %}
+                            {% if post.name %}
+                                <h3>{{ post.name }}</h2>
+                            {% endif %}
+                            {% if post.description %}
+                                <ul style="display: table; margin: 0 auto;">
+                                    <li>{{ post.description }}</li>
+                                    {% if post.description2 %}
+                                    <li>{{ post.description2 }}</li>
+                                    {% endif %}
+                                    {% if post.description3 %}
+                                    <li>{{ post.description3 }}</li>
+                                    {% endif %}
+                                </ul>
+                            {% endif %}
+                            {% if post.category == "Professor" %}
+                            {% include profile.html %}
+                            {% endif %}
+                            <ul class="list-inline item-details">
+                                {% if post.client %}
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.email %}
+                                    <li>Email:
+                                        <strong>{{ post.email }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 10
+img: gevinda.jpg
+alt: image-alt
+category: MS 
+name: Gevinda Arulia Martha
+email: gevinda.arulia@kaist.ac.kr
+description: Max-plus algebra-based scheduling
+---

@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+img: hyungook.jpg
+alt: image-alt
+category: PhD
+name: Hyung-ook Kim
+email: hyung1405@kaist.ac.kr
+description: Modeling and Simulation of Discrete Linear systems.
+description2: Modeling and Simulation of Discrete Event Systems.
+description3: Scheduling Overall Semiconductor Manufacturing Flow.
+---

@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 2
+img: taehyung.png
+alt: image-alt
+category: PhD
+name: Tae-Hyung Kim
+description: Tae-Hyung Kim
+email: thkim@simlab.kaist.ac.kr
+---

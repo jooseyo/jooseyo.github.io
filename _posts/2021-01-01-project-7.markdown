@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 7
+img: jaehyun.png
+alt: image-alt
+category: PhD
+name: Jae-Hyun Kim
+email: kjh@simlab.kaist.ac.kr
+description: Wafer delay control by feedback control on cluster tools with 1- or 2-periodic chamber cleaning operation
+---

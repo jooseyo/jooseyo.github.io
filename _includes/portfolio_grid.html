@@ -1,0 +1,202 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="people">
+        <div class="container portfolio-flex-grid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>People</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Professor</h2>
+                </div>
+            </div>
+            <div class="portfolio-flex-row">
+                {% for post in site.posts %}
+                    {% if post.category == "Professor" %}
+                    <div class="portfolio-flex-item portfolio-item img-centered">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <img src="img/Professor/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"
+                                width="160" height="240">
+                            <div class="caption">
+                                <div class="caption-content text-center">
+                                    {{ post.name }}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                   {% endif %}
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Ph.D. students</h2>
+                </div>
+            </div>
+            <div class="portfolio-flex-row">
+                {% for post in site.posts %}
+                    {% if post.category == "PhD" %}
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <img src="img/PhD/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"
+                                width="160" height="240">
+                            <div class="caption">
+                                <div class="caption-content text-center">
+                                    {{ post.name }}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                   {% endif %}
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>M.S. students</h2>
+                </div>
+            </div>
+            <div class="portfolio-flex-row">
+                {% for post in site.posts %}
+                    {% if post.category == "MS" %}
+                    <div class="portfolio-flex-item portfolio-item img-centered">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <img src="img/MS/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"
+                                width="160" height="240">
+                            <div class="caption">
+                                <div class="caption-content text-center">
+                                    {{ post.name }}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                   {% endif %}
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Alumni</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>Ph.D</h2>
+                </div>
+            </div>
+            <div class="portfolio-flex-row" >
+                <table class="type09 col-lg-12">
+                    <thead class="thead-dark">
+                        <tr class="header">
+                            <th>No.</th>
+                            <th>Name</th>
+                            <th>Degree</th>
+                            <th>Affiliation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>송주석</td><td>박사 96</td><td></td></tr>
+                        <tr><td>2</td><td>임형규</td><td></td><td>인터베스트 주식회사</td></tr>
+                        <tr><td>3</td><td>이진규</td><td>박사 01</td><td>LG CNS</td></tr>
+                        <tr><td>4</td><td>서정원</td><td>박사 01</td><td>LG 전자</td></tr>
+                        <tr><td>5</td><td>김자희</td><td>박사 03</td><td>서울과학기술대학교</td></tr>
+                        <tr><td>6</td><td>이진환</td><td>박사 03</td><td>삼성 SDS</td></tr>
+                        <tr><td>7</td><td>신용호</td><td>박사 03</td><td>영남대학교</td></tr>
+                        <tr><td>8</td><td>이영두</td><td>박사 03</td><td>삼성전기</td></tr>
+                        <tr><td>9</td><td>선동석</td><td>박사 04</td><td>Samsung Electronic</td></tr>
+                        <tr><td>10</td><td>박성호</td><td>박사 05</td><td>Samsung Display</td></tr>
+                        <tr><td>11</td><td>이환용</td><td>박사 05</td><td>Samsung Display</td></tr>
+                        <tr><td>12</td><td>이병승</td><td>박사 06</td><td>LG Display</td></tr>
+                        <tr><td>13</td><td>백진흠</td><td>박사 08</td><td>삼성전자 반도체 총괄</td></tr>
+                        <tr><td>14</td><td>이상진</td><td>박사 08</td><td>국방과학연구소</td></tr>
+                        <tr><td>15</td><td>주용재</td><td>박사 09</td><td>한국전력 연구소</td></tr>
+                        <tr><td>16</td><td>김희수</td><td>박사 09</td><td>육군 교육사령부</td></tr>
+                        <tr><td>17</td><td>김태규</td><td>박사 09</td><td>삼성 SDS</td></tr>
+                        <tr><td>18</td><td>정치현</td><td>박사 10</td><td>Globalfoundries USA.</td></tr>
+                        <tr><td>19</td><td>이준호</td><td>박사 13</td><td>삼성전자</td></tr>
+                        <tr><td>20</td><td>Uno Wikborg</td><td>박사 13</td><td>노르웨이</td></tr>
+                        <tr><td>21</td><td>김대규</td><td>박사 13</td><td>삼성전자</td></tr>
+                        <tr><td>22</td><td>김현정</td><td>박사 13</td><td>성균관대학교</td></tr>
+                        <tr><td>23</td><td>구본임</td><td>박사 14</td><td></td></tr>
+                        <tr><td>24</td><td>김철한</td><td>박사 15</td><td>Perples, Inc.</td></tr>
+                        <tr><td>25</td><td>윤우섭</td><td>박사 16</td><td>육군</td></tr>
+                        <tr><td>26</td><td>유태선</td><td>박사 17</td><td>부경대학교</td></tr>
+                        <tr><td>27</td><td>김우진</td><td>박사 18</td><td>삼성전자</td></tr>
+                        <tr><td>28</td><td>임유철</td><td>박사 18</td><td>삼성전자</td></tr>
+                        <tr><td>29</td><td>이지용</td><td>박사 18</td><td></td></tr>
+                        <tr><td>30</td><td>노동현</td><td>박사 19</td><td>삼성전자</td></tr>
+                        <tr><td>31</td><td>양지원</td><td>박사 19</td><td>KIDA</td></tr>
+                        <tr><td>32</td><td>지영준</td><td>박사 21</td><td>삼성전자</td></tr>
+                        <tr><td>33</td><td>이태경</td><td>박사 21</td><td>삼성전자</td></tr>
+                        <tr><td>34</td><td>이민호</td><td>박사 21</td><td>삼성전자</td></tr><tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>M.S.</h2>
+                </div>
+            </div>
+            <div class="portfolio-flex-row" >
+                <table class="type09 col-lg-12">
+                    <thead class="thead-dark">
+                        <tr class="header">
+                            <th>No.</th>
+                            <th>Name</th>
+                            <th>Degree</th>
+                            <th>Affiliation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>임종칠</td><td>석사 94</td><td>Accenture</td></tr>
+                        <tr><td>2</td><td>서진규</td><td>석사 95</td><td>Dacom</td></tr>
+                        <tr><td>3</td><td>정재만</td><td>석사 96</td><td>삼성탈레스</td></tr>
+                        <tr><td>4</td><td>이준성</td><td>석사 95</td><td>에스원</td></tr>
+                        <tr><td>5</td><td>이경호</td><td>석사 98</td><td>액센츄어</td></tr>
+                        <tr><td>6</td><td>최오규</td><td>석사 98</td><td>Sk-telecom</td></tr>
+                        <tr><td>7</td><td>김현철</td><td>석사 99</td><td>액센츄어</td></tr>
+                        <tr><td>8</td><td>권준형</td><td>석사 01</td><td>Qualcomm</td></tr>
+                        <tr><td>9</td><td>김현수</td><td>석사 02</td><td>SK 브로드밴드</td></tr>
+                        <tr><td>10</td><td>김보곤</td><td>석사 03</td><td>Samsung Electronic</td></tr>
+                        <tr><td>11</td><td>김용문</td><td>석사 03</td><td>㈜코리아크레딧뷰로(KCB)</td></tr>
+                        <tr><td>12</td><td>이성진</td><td>석사 03</td><td>Samsung Card</td></tr>
+                        <tr><td>13</td><td>김수환</td><td>석사 04</td><td>국방대학교</td></tr>
+                        <tr><td>14</td><td>김수곤</td><td>석사 04</td><td>SK이노베이션</td></tr>
+                        <tr><td>15</td><td>오태호</td><td>석사 05</td><td>Samsung Display</td></tr>
+                        <tr><td>16</td><td>이명인</td><td>석사 05</td><td>한국투자공사</td></tr>
+                        <tr><td>17</td><td>김태홍</td><td>석사 05</td><td>MBA</td></tr>
+                        <tr><td>18</td><td>이정경</td><td>석사 05</td><td>Woori Bank</td></tr>
+                        <tr><td>19</td><td>김희정</td><td>석사 06</td><td>UC Berkeley</td></tr>
+                        <tr><td>20</td><td>이정수</td><td>석사 08</td><td>IBK</td></tr>
+                        <tr><td>21</td><td>하재석</td><td>석사 08</td><td>NH투자증권</td></tr>
+                        <tr><td>22</td><td>정유주</td><td>석사 09</td><td>POSCO</td></tr>
+                        <tr><td>23</td><td>방경태</td><td>석사 09</td><td>육군</td></tr>
+                        <tr><td>24</td><td>이석현</td><td>석사 09</td><td>STX조선해양</td></tr>
+                        <tr><td>25</td><td>고성길</td><td>석사 10</td><td>방위사업청</td></tr>
+                        <tr><td>26</td><td>최우성</td><td>석사 10</td><td>STX조선해양</td></tr>
+                        <tr><td>27</td><td>Daniel Tonke</td><td>석사 10</td><td>뮌헨 공대</td></tr>
+                        <tr><td>28</td><td>김문수</td><td>석사 11</td><td>방위사업청</td></tr>
+                        <tr><td>29</td><td>이호준</td><td>석사 11</td><td>교보증권</td></tr>
+                        <tr><td>30</td><td>김정훈</td><td>석사 11</td><td>KAIST</td></tr>
+                        <tr><td>31</td><td>임종원</td><td>석사 12</td><td>육군</td></tr>
+                        <tr><td>32</td><td>권혁래</td><td>석사 13</td><td>육군</td></tr>
+                        <tr><td>33</td><td>백선희</td><td>석사 13</td><td>Carnegie Mellon University</td></tr>
+                        <tr><td>34</td><td>편정희</td><td>석사 14</td><td>현대중공업</td></tr>
+                        <tr><td>35</td><td>정찬휘</td><td>석사 14</td><td>삼성전자</td></tr>
+                        <tr><td>36</td><td>Nurhak Aktas</td><td>석사 15</td><td></td></tr>
+                        <tr><td>37</td><td>신동엽</td><td>석사 15</td><td>Roland Berger</td></tr>
+                        <tr><td>38</td><td>방승호</td><td>석사 15</td><td>육군</td></tr>
+                        <tr><td>39</td><td>권용민</td><td>석사 17</td><td>AT커니</td></tr>
+                        <tr><td>40</td><td>최용환</td><td>석사 18</td><td>티맥스</td></tr>
+                        <tr><td>41</td><td>노지은</td><td>석사 18</td><td>삼성전자</td></tr>
+                        <tr><td>42</td><td>임초아</td><td>석사 18</td><td></td></tr>
+                        <tr><td>43</td><td>안유찬</td><td>석사 19</td><td>삼성전자</td></tr>
+                        <tr><td>44</td><td>이경호</td><td>석사 19</td><td>KAIST</td></tr>
+                        <tr><td>45</td><td>윤가희</td><td>석사 20</td><td>육군</td></tr>
+                        <tr><td>46</td><td>강상민</td><td>석사 21</td><td>티맥스</td></tr>
+                        <tr><td>47</td><td>배규종</td><td>석사 21</td><td>SK하이닉스</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>

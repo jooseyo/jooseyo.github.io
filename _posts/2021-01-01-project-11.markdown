@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 11
+img: seunghyeon.jpg
+alt: image-alt
+category: MS
+name: Seung-Hyun Kim
+email: calendarbot@simlab.kaist.ac.kr
+description: Reinforcement Learning-based Scheduling
+description2: Scheduling Semiconductor Manufacturing Facilities
+---

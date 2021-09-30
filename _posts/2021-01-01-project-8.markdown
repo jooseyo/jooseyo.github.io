@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 8
+img: jungheon.jpg
+alt: image-alt
+category: PhD
+name: Jung-Heon Seo
+email: tjwjdgjs95@simlab.kaist.ac.kr
+description: Semiconductor manufacturing facilities for wafer quality improvement
+description2: Feedback control baed scheduling of Semiconductor Manufacturing Facilities 
+description3: Modeling and Simulation of discrete event systems
+---
